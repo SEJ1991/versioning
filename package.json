@@ -1,6 +1,6 @@
 {
   "name": "@squadx-developer/test-library",
-  "private": false,
+  "private": true,
   "version": "0.0.1",
   "type": "module",
   "files": [
@@ -26,7 +26,8 @@
     "publish": "npm publish",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "storybook": "VITE_CJS_IGNORE_WARNING=true storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "semantic-release": "semantic-release --no-ci --dry-run false"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -34,6 +35,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.23.9",
+    "@semantic-release/git": "^10.0.1",
     "@storybook/addon-actions": "^7.6.17",
     "@storybook/addon-essentials": "^7.6.17",
     "@storybook/addon-interactions": "^7.6.17",
@@ -56,6 +58,7 @@
     "eslint-plugin-react-refresh": "^0.4.5",
     "eslint-plugin-storybook": "^0.8.0",
     "sass": "^1.71.1",
+    "semantic-release": "^23.0.2",
     "storybook": "^7.6.17",
     "typescript": "^5.2.2",
     "vite": "^5.1.4",
