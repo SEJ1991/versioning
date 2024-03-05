@@ -1,7 +1,7 @@
 {
-  "name": "@squadx-developer/test-library",
-  "private": true,
-  "version": "0.0.1",
+  "name": "sejin-test",
+  "private": false,
+  "version": "0.0.2",
   "type": "module",
   "files": [
     "dist"
@@ -60,9 +60,23 @@
     "sass": "^1.71.1",
     "semantic-release": "^23.0.2",
     "storybook": "^7.6.17",
-    "typescript": "^5.2.2",
+    "typescript": "^5.3.3",
     "vite": "^5.1.4",
     "vite-plugin-css-injected-by-js": "^3.4.0",
     "vite-plugin-dts": "^3.7.3"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SEJ1991/versioning.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "jink6111",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SEJ1991/versioning/issues"
+  },
+  "homepage": "https://github.com/SEJ1991/versioning#readme"
 }
