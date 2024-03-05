@@ -5,13 +5,13 @@ on:
   pull_request:
     branches: [ main, alpha ]
 env:
-  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 jobs:
   build:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [16.x, 18.x]
+        node-version: [16.x, 17.x, 18.x]
     steps:
     - uses: actions/checkout@v3
     - name: Use Node.js ${{ matrix.node-version }}
