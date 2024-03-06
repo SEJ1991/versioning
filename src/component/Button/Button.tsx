@@ -33,6 +33,7 @@ export const Button = ({
   label,
   ...props
 }: ButtonProps) => {
+  console.log("z");
   return (
     <button
       type="button"
