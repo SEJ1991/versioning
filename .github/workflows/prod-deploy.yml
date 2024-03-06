@@ -10,8 +10,10 @@ env:
   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
 permissions:
-  contents: read
-  pages: write
+  packages: write
+  pull-requests: write
+  contents: write
+  issues: write
   id-token: write
 
 jobs:
