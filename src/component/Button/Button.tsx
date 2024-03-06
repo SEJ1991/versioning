@@ -33,7 +33,7 @@ export const Button = ({
   label,
   ...props
 }: ButtonProps) => {
-  console.log("되냐?11111");
+  console.log("되냐?11111123123");
   return (
     <button
       type="button"
