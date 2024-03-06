@@ -13,7 +13,6 @@ export function isToday(date: Date): boolean {
   );
 }
 
-
-export function testFunc() { 
-  alert('success test!');
+export function testFunc() {
+  alert("success test!asdasd");
 }

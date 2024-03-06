@@ -36,6 +36,7 @@
   "devDependencies": {
     "@babel/core": "^7.23.9",
     "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "github:semantic-release/github",
     "@storybook/addon-actions": "^7.6.17",
     "@storybook/addon-essentials": "^7.6.17",
     "@storybook/addon-interactions": "^7.6.17",
@@ -68,7 +69,7 @@
   "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SEJ1991/versioning.git"
+    "url": "https://github.com/SEJ1991/versioning.git"
   },
   "keywords": [
     "test"
@@ -93,5 +94,6 @@
         "name": "alpha",
         "prerelease": true
       }
-  ]}
+    ]
+  }
 }
