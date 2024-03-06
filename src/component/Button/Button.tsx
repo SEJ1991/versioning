@@ -33,7 +33,7 @@ export const Button = ({
   label,
   ...props
 }: ButtonProps) => {
-  console.log("zz");
+  console.log("되냐?");
   return (
     <button
       type="button"
